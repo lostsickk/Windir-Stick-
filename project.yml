@@ -1,0 +1,20 @@
+name: WINDIR-MODE
+options:
+  bundleIdPrefix: com.dnxmodz
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  WINDIR-MODE:
+    type: application
+    platform: iOS
+    sources:
+      - path: WINDIR-MODE
+    info:
+      path: Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dnxmodz.windirmode
+        PRODUCT_NAME: WINDIR-MODE
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        IPHONEOS_DEPLOYMENT_TARGET: "15.0"
